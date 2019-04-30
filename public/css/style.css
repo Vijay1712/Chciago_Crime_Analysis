@@ -1,0 +1,134 @@
+label {
+  display: block;
+  margin: 5px 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 5px;
+  border-bottom: 1px solid #aaa;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+.hero {
+  background-image: url("../assets/1021.jpg");
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  background-image: url("../assets/1577997-8.jpg");
+  height: 30vh;
+  text-align: center;
+  background-position: center center;
+}
+
+.getstarted:hover{
+color: black !important;
+background-color:#FFFFFF !important;
+}
+
+#start {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  text-decoration:none;
+  color: white;
+  font-family:'Roboto',sans-serif;
+  font-size: 48px;
+  background-color: #122335;
+}
+
+.getstarted{
+  display:inline-block;
+  padding:0.35em 1.2em;
+  border:0.1em solid #FFFFFF;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:#FFFFFF;
+  text-align:center;
+  transition: all 0.2s;
+}
+
+@media all and (max-width:30em){
+.getstarted.button1{
+  display:block;
+  margin:0.4em auto;
+ }
+}
+.container {
+  margin: 0 auto;
+  max-width: 940px;
+  padding: 1px;
+  color: white;
+  font-size: 30px;
+  font-family: serif;
+}
+
+.container2 {
+  color: white;
+  Margin-top:-50px;
+}
+
+.form {
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family:'Roboto',sans-serif;
+  background-color: #122335;
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  height:100%;
+}
+
+.graph {
+  padding: 0;
+  margin: 0;
+  color: black;
+  font-family:'Roboto',sans-serif;
+  background-color: lightgrey;
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  height: 100%;
+}
+
+.table{
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family:'Roboto',sans-serif;
+  background-color: #122335;
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.center-table {
+  font-family:'Roboto',sans-serif;
+  margin-left:auto;
+  margin-right:auto;
+}
